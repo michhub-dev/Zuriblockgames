@@ -1,0 +1,11 @@
+//solidity version
+
+pragma solidity 0.5.1;
+
+contract HelloWorld {
+string public message = "Hello world";
+
+function get(string memory _value) public  {
+     message = _value; 
+}
+}
